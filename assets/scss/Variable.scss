@@ -1,0 +1,126 @@
+$font-family-sans-serif: 'Figtree', sans-serif;
+$font-family-base:       $font-family-sans-serif ;
+$headings-font-family:  'Figtree', sans-serif;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           400 !default;
+$font-weight-normal:          500 !default;
+$font-weight-bold:            600 !default;
+$font-weight-bolder:          800 !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$line-height-base:            2.125 !default;
+
+
+$h1-font-size:                $font-size-base * 4 !default;
+$h2-font-size:                $font-size-base * 3.125 !default;
+$h3-font-size:                $font-size-base * 2.25 !default;
+$h4-font-size:                $font-size-base * 1.75 !default;
+$h5-font-size:                $font-size-base * 1.375 !default;
+$h6-font-size:                $font-size-base * 1.25 !default;
+$headings-line-height:        1.2 !default; 
+
+
+$primary:#BA8551;
+$success:       #61C5Cb!default;
+$info:          #FFF8F1!default;
+$warning:       #856EFF!default;
+$danger:        #F85C84!default;
+$white: #fff;
+$light:#F9FAFE;
+$atag: #666666;
+$pcolor: #626272;
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px
+) !default;
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1440px,
+  );
+
+  $theme-colors: (
+  "primary":    $primary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "white" : $white,
+  "light" : $light,
+) !default;
+
+$fontsize :(
+    10: 10px,
+    11:11px,
+    12:12px,
+    13: 13px,
+    14:14px,
+    15:15px,
+    16:16px,
+    17:17px,
+    18:18px,
+    19:19px,
+    20:20px,
+    22:22px,
+    24:24px,
+    28:28px,
+    30:30px,
+);
+
+
+$spacers :(
+    0: 0,
+    5:5px,
+    10: 10px,
+    12:12px,
+    15:15px,
+    20: 20px,
+    22:22px,
+    24:24px,
+    25:25px,
+    30: 30px,
+    35:35px,
+    40: 40px,
+    45:45px,
+    50:50px,
+    55:55px,
+    60: 60px,
+    70: 70px,
+    80: 80px,
+    90: 90px,
+    100: 100px,
+    110: 110px,
+    120: 120px,
+    130: 130px,
+    140: 140px,
+    150: 150px,
+    160: 160px,
+    170: 170px,
+    200: 200px,
+    250: 250px,
+    260: 260px,
+    300: 300px,
+);
+
+
+$screen-xxl-min: 1600px;
+$screen-xl-min: 1200px;
+$screen-lg-min: 992px;
+$screen-md-min: 768px;
+$screen-sm-min: 576px;
+
+
+$screen-xxl-max: 1599px;
+$screen-xl-max: 1199px;
+$screen-lg-max: 991px;
+$screen-md-max: 767px; 
+$screen-sm-max: 575px;  
